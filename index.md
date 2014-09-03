@@ -31,7 +31,7 @@ Not sure how to create a branch? Follow along:
 ![GitHub forking screenshot](http://f.cl.ly/items/07310n0O1P0R2s0U1g09/Screen%20Shot%202014-09-03%20at%2011.29.31%20AM.png)
 
 - Clone the repo locally by running `git clone git@github.com:<your github username>/guides-github-pull-request.git` in your terminal
-- Then run `git checkout -b add-carl-sednaoui`
+- Then run `git checkout -b add-your-name`
 
 ![git checkout command screenshot](http://f.cl.ly/items/1b280H0Y2x2Z133h3e3j/Screen%20Shot%202014-09-03%20at%2011.34.24%20AM.png)
 
