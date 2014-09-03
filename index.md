@@ -1,6 +1,6 @@
-# Making an Epic Pull Request (PR)
+# Making an Epic Pull Request
 
-Having your first pull request accepted in an open source project is one of the best feelings there is when it comes to working with open source code. There's nothing like working with other people, contributing to a project you care about, and showing off your crazy coding skills through a great PR. This guide will establish some guidelines on how to make your PRs amazing!
+Having your first pull request (PR) accepted in an open source project is one of the best feelings there is when it comes to working with open source code. There's nothing like working with other people, contributing to a project you care about, and showing off your crazy coding skills through a great PR. This guide will establish some guidelines on how to make your PRs amazing!
 
 ### Finding A Project to Contribute To
 
