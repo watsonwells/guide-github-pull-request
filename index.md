@@ -80,6 +80,8 @@ In addition, many authors prefer clean and organized commits to be merged into t
 
 Finally, it's best to merge branches that are based on the latest commit of the branch they are being merged into, to ensure a clean history and no conflicts. Keeping your branch up to date with the master branch also requires some work with rebase, and if not more often should at least be done before a PR is merged. As mentioned earlier, here's a good article on [rebasing](https://help.github.com/articles/about-git-rebase).
 
+**Note:** To sync your fork with the original project, [follow this guide](https://help.github.com/articles/syncing-a-fork).
+
 ### Opening it Up
 
 Phew, that's a lot to remember already! But let's say you have finished your PR and feel like it's ready to submit. A couple last pieces:
@@ -92,21 +94,38 @@ Phew, that's a lot to remember already! But let's say you have finished your PR 
 
 Then let's go for it and open it up!
 
+Here's how to open your first pull request:
+
+- Click on the green button
+![](http://f.cl.ly/items/162z2O2u0D3x142w0m2r/Screen%20Shot%202014-09-03%20at%2011.55.26%20AM.png)
+
+- Click on 'create pull request'
+![](http://f.cl.ly/items/0s3V0u3m1N3d3O1s3I1V/Screen%20Shot%202014-09-03%20at%2011.57.23%20AM.png)
+
+- This is what your PR will look like inside the [original repo](https://github.com/Thinkful/guides-github-pull-request/pull/1)
+![](http://f.cl.ly/items/19281K2C3s0G333U2g2c/Screen%20Shot%202014-09-03%20at%2011.55.51%20AM.png)
+
+
 ### Work In Progress
 
 If you aren’t totally done with the PR, make sure to add `[WIP]` to the title at the beginning to indicate that its a work in progress. In addition, make sure to note in the description what is still being worked on — you can edit this later and remove it once its done.
 
-Try not to put up work in progress PRs for other people’s repos unless you are trying to solicit feedback or help from the maintainer getting the part done that isn’t finished yet. Usually WIP pull requests will be for your own repos though.
+Try not to put up work in progress PRs for other people’s repos unless you are trying to solicit feedback or help from the maintainer getting the part done that isn’t finished yet. Usually WIP pull requests will be for your own repos.
 
 ### Expect Review
 
-So the pull request has been submitted, and now it's time for review. As you would if someone sends you a PR, you should expect the maintainer to be reviewing every line of code. Do not be offended by this, if they catch a mistake or suggest doing something in a different way that’s awesome, maybe you can learn something. Most people are pretty reasonable about this stuff. You guys are working together, keep it calm and casual. If you are not used to code review, it can be easy to feel offended by this process, so keep in mind that any feedback is in good sprit, and just meant to make the project better. And remember that open source is all about learning -- you can often pick up some great practices working with others.
+So the pull request has been submitted, and now it's time for review. As you would if someone sends you a PR, you should expect the maintainer to be reviewing every line of code. Do not be offended by this, if they catch a mistake or suggest doing something in a different way that’s awesome, maybe you can learn something. Most people are pretty reasonable about this stuff. You guys are working together, keep it calm and casual. If you are not used to code review, it can be easy to feel offended by this process, so keep in mind that any feedback is in good sprit, and just meant to make the project better. And remember that open source is all about learning — you can often pick up some great practices working with others.
 
 Once all has been approved, any changes have been made, and the commits and code are clean, your PR should be ready for merge!
 
 ### Keep Tabs On The Project
 
-Hey congrats on getting your pull request merged! If you are invested in this project, you might want to keep an eye on it in case you can help out in the future. Use the watch button on the repo and the subscribe and unsubscribe buttons on individual issues to keep up with things. Who knows, some day you might be added to core!
+Hey congrats on getting your pull request merged! If you are invested in this project, you might want to keep an eye on it in case you can help out in the future. Use the watch button on the repo and the subscribe and unsubscribe buttons on individual issues to keep up with things. Who knows, some day you might become a core contributor! :smiley:
+
+### Time to Submit Your First PR
+Ready to submit your first PR? Awesome!
+
+Your challenge, if you choose to accept it, is to [add your name to this list](https://github.com/Thinkful/guides-github-pull-request/blob/master/list-of-names.md).
 
 Congrats again on the successful pull request, and here's to many more.
 
