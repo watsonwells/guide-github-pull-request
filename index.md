@@ -1,10 +1,10 @@
-# Making an Epic Pull Request
+# Making an Epic Pull Request (PR)
 
-Having a your first pull request (PR) accepted to an open source project is one of the best feelings there is when it comes to working with open source code. There's nothing like working with other people, contributing to a project you care about, and showing off your crazy coding skills through a great PR. This guide will establish some guidelines on how to make your PRs amazing, so read on if that seems up your alley!
+Having your first pull request accepted in an open source project is one of the best feelings there is when it comes to working with open source code. There's nothing like working with other people, contributing to a project you care about, and showing off your crazy coding skills through a great PR. This guide will establish some guidelines on how to make your PRs amazing!
 
 ### Finding A Project to Contribute To
 
-A lot of people ask me how to find a project to contribute and/or make a pull request to. Luckily, this question has an easy answer: contribute to projects you use. You should not be browsing github for random projects and trying to contribute to one of them. You should write code as you normally do, use other peoples' libraries, and when you find a bug or something you'd like to add, then think about contributing.
+A lot of people wonder how to find a project to contribute and/or make a pull request to. Luckily, this question has an easy answer: contribute to projects you use. You should not be browsing GitHub for random projects and trying to contribute to one of them. You should write code as you normally do, use other peoples' libraries, and when you find a bug or something you'd like to add, then think about contributing.
 
 Contributing to open source projects should be an entirely natural and logical process. Here's some code you use, here's a specific thing you see that would make it better, let's go and contribute. If you haven't found any issues with any of the libraries you use, that's awesome, they must be super solid. If you don't use a lot of other peoples' projects, you probably are just starting out with coding. Keep practicing and getting better, and as you do so you will gradually try out and use more third-party projects.
 
@@ -12,7 +12,7 @@ Contributing to open source projects should be an entirely natural and logical p
 
 So let's say that you have an idea for a great feature for a project that you use, that would make you life (and presumably others' as well) much easier. Seems like a good time to clone that code down and see if you can make a pull request, right?
 
-Well, not quite. Before you do this, it's a good idea to **ask**. What if the author of the code has a good reason they don't want to add that feature, it's already in progress, etc? Generally if you want to be safe, before opening a pull request or starting to work on code in someone else's project, its a good idea to first open an issue and ask about it. For example, if you are thinking about a new feature, you could describe the feature, say you are happy to open up a PR for it, and ask the code author's opinion. If they agree, go for it! They might even have some good suggestions for changes or additions to the feature as well.
+Well, not quite. Before you do this, it's a good idea to **ask**. What if the author of the code has a good reason they don't want to add that feature, it's already in progress, etc? Generally if you want to be safe, before opening a pull request or starting to write code for someone else's project, its a good idea to first open an issue and ask about it. For example, if you are thinking about a new feature, you could describe the feature, say you are happy to open up a PR for it, and ask the code author's opinion. If they agree, go for it! They might even have some good suggestions for changes or additions to the feature as well.
 
 If it's a bug you found, occasionally it can be ok to just open a PR, as long as it's clearly a bug with a straightforward fix, but it's also not a bad idea to file the bug as an issue first.
 
@@ -21,6 +21,23 @@ Finally, if you are using a project you just love and want to contribute back to
 ### Using Branches
 
 Ok, so we have a great feature idea, we opened an issue to check with the author, and they signed off on it. Whoo! Time to get to coding. First thing you should do is **create a branch** for your new code. This is always a good idea when working on a specific feature of fix for any project, and PRs are no exception. Make sure to name your branch with something understandable, related to the change you are making, and not too long.
+
+#### Creating a branch
+
+Not sure how to create a branch? Follow along:
+- Go to [this GitHub repo](https://github.com/Thinkful/guides-github-pull-request)
+- Click the `Fork` button on the upper right-hand corner. This will save someone else's repo to your GitHub account
+
+![GitHub forking screenshot](http://f.cl.ly/items/07310n0O1P0R2s0U1g09/Screen%20Shot%202014-09-03%20at%2011.29.31%20AM.png)
+
+- Clone the repo locally by running `git clone git@github.com:<your github username>/guides-github-pull-request.git` in your terminal
+- Then run `git checkout -b add-carl-sednaoui`
+
+![git checkout command screenshot](http://f.cl.ly/items/1b280H0Y2x2Z133h3e3j/Screen%20Shot%202014-09-03%20at%2011.34.24%20AM.png)
+
+- Tadaa! You're now working on a new branch, on a repo that you can commit to.
+
+Here's a [guide created by GitHub](https://guides.github.com/introduction/flow/index.html) that may also be useful.
 
 ### Writing a Good Commit Message
 
@@ -41,9 +58,9 @@ If you have too much info here, it might be a good candidate to break
 down into multiple commits. You can use emoji here too :sparkles:
 ```
 
-In order to write commits cleanly like this, it's easiest to use vim with syntax highlighting on. Vim will give you enough space to write the full message, notify you when you have hit the 50 char limit on the summary etc. You don't need to be a vim wizard to write a commit, you just need the basics.
+In order to write commits cleanly like this, it's easiest to use vim with syntax highlighting on. Vim will give you enough space to write the full message, notify you when you have hit the 50 char limit on the summary etc. You don't need to be a vim wizard to write a commit, you just [need the basics](http://bullium.com/support/vim.html).
 
-If you are closing an issue with the commit, you might be used to using `closes #xx` or `fixes #xx` at the end of a commit. This is a great trick, but for pull requests, its better to put this at the end of your PR description field. This will accomplish the same thing, but won't notify the issue multiple times if there's a rebase.
+If you are closing an issue with the commit, you might be used to using `closes #xx` or `fixes #xx` at the end of a commit. This is a great trick, but for pull requests, its better to put this at the end of your PR description field. This will accomplish the same thing, but won't notify the issue multiple times if there's a [rebase](https://help.github.com/articles/about-git-rebase).
 
 For more detail on writing good commit messages, check out [this classic article](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
@@ -61,7 +78,7 @@ For example, if you made a mistake in your first commit, but fix it in a later c
 
 In addition, many authors prefer clean and organized commits to be merged into their projects, not 5 commits of fixes and corrections and one commit with the actual code making the change. Rebase allows you to clean up and compress your commits so you can make this happen.
 
-Finally, it's best to merge branches that are based on the latest commit of the branch they are being merged into, to ensure a clean history and no conflicts. Keeping your branch up to date with the master branch also requires some work with rebase, and if not more often should at least be done before a PR is merged.
+Finally, it's best to merge branches that are based on the latest commit of the branch they are being merged into, to ensure a clean history and no conflicts. Keeping your branch up to date with the master branch also requires some work with rebase, and if not more often should at least be done before a PR is merged. As mentioned earlier, here's a good article on [rebasing](https://help.github.com/articles/about-git-rebase).
 
 ### Opening it Up
 
