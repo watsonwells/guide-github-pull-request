@@ -117,22 +117,19 @@ Before you can do anything, you need to be able to make changes to the code. Fol
 
 **Note:** If you're new to the GitHub workflow, you may find [this guide](https://guides.github.com/introduction/flow/index.html) useful.
 
-Now add your name to `list-of-names.md` and commit your changes. You're now ready to send your pull request!
-
+Now add your name to `list-of-names.md` and commit your changes. Now push this changes to your repo by running `git push origin add-your-name`. You're now ready to send your pull request!
 
 Here's how you can open your first pull request:
 
-- Click on the green button
-![](http://f.cl.ly/items/162z2O2u0D3x142w0m2r/Screen%20Shot%202014-09-03%20at%2011.55.26%20AM.png)
+- Go to your repo on GitHub and click on the green `compare & pull request`button
+![](http://f.cl.ly/items/1B2U133K2g1X1y1B0R40/compare-and-pull-request.png)
 
 - Click on 'create pull request'
-![](http://f.cl.ly/items/0s3V0u3m1N3d3O1s3I1V/Screen%20Shot%202014-09-03%20at%2011.57.23%20AM.png)
+![](http://f.cl.ly/items/1527063t0w2s0Y2H4703/create-pull-request.png)
 
-- This is what your PR will look like inside the [original repo](https://github.com/Thinkful/guides-github-pull-request/pull/1)
-![](http://f.cl.ly/items/19281K2C3s0G333U2g2c/Screen%20Shot%202014-09-03%20at%2011.55.51%20AM.png)
+Congrats on the successful pull request, and here's to many more!
 
-Congrats again on the successful pull request, and here's to many more.
 
 ### Keep Tabs on The Project
 
-Hey congrats on getting your pull request merged! If you are invested in this project, you might want to keep an eye on it in case you can help out in the future. Use the watch button on the repo and the subscribe and unsubscribe buttons on individual issues to keep up with things. Who knows, some day you might become a core contributor! :smiley:
+Hey congrats on getting your pull request merged! If there's any project you're interested in, you might want to keep an eye on it in case you can help out in the future. Use the watch button on the repo — and the subscribe and unsubscribe buttons on individual issues — to keep up with things. Who knows, some day you might become a core contributor! :smiley:
