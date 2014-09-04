@@ -2,7 +2,7 @@
 
 Having your first pull request (PR) accepted in an open source project is one of the best feelings there is when it comes to working with open source code. There's nothing like working with other people, contributing to a project you care about, and showing off your crazy coding skills through a great PR. This guide will establish some guidelines on how to make your PRs amazing!
 
-### Finding A Project to Contribute To
+### Finding a Project to Contribute to
 
 A lot of people wonder how to find a project to contribute and/or make a pull request to. Luckily, this question has an easy answer: contribute to projects you use. You should not be browsing GitHub for random projects and trying to contribute to one of them. You should write code as you normally do, use other peoples' libraries, and when you find a bug or something you'd like to add, then think about contributing.
 
@@ -22,7 +22,7 @@ Finally, if you are using a project you just love and want to contribute back to
 
 Ok, so we have a great feature idea, we opened an issue to check with the author, and they signed off on it. Whoo! Time to get to coding. First thing you should do is **create a branch** for your new code. This is always a good idea when working on a specific feature of fix for any project, and PRs are no exception. Make sure to name your branch with something understandable, related to the change you are making, and not too long.
 
-#### Creating a branch
+#### Creating a Branch
 
 Not sure how to create a branch? Follow along:
 - Go to [this GitHub repo](https://github.com/Thinkful/guides-github-pull-request)
@@ -106,7 +106,7 @@ Here's how to open your first pull request:
 ![](http://f.cl.ly/items/19281K2C3s0G333U2g2c/Screen%20Shot%202014-09-03%20at%2011.55.51%20AM.png)
 
 
-### Work In Progress
+### Work in Progress
 
 If you aren’t totally done with the PR, make sure to add `[WIP]` to the title at the beginning to indicate that its a work in progress. In addition, make sure to note in the description what is still being worked on — you can edit this later and remove it once its done.
 
@@ -118,7 +118,7 @@ So the pull request has been submitted, and now it's time for review. As you wou
 
 Once all has been approved, any changes have been made, and the commits and code are clean, your PR should be ready for merge!
 
-### Keep Tabs On The Project
+### Keep Tabs on The Project
 
 Hey congrats on getting your pull request merged! If you are invested in this project, you might want to keep an eye on it in case you can help out in the future. Use the watch button on the repo and the subscribe and unsubscribe buttons on individual issues to keep up with things. Who knows, some day you might become a core contributor! :smiley:
 
