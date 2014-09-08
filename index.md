@@ -12,9 +12,9 @@ Contributing to open source projects should be an entirely natural and logical p
 
 ### If in Doubt, Ask
 
-So let's say that you have an idea for a great feature for a project that you use, that would make you life (and presumably others' as well) much easier. Seems like a good time to clone that code down and see if you can make a pull request, right?
+So let's say that you have an idea for a great feature for a project that you use, that would make your life (and presumably others' as well) much easier. Seems like a good time to clone that code down and see if you can make a pull request, right?
 
-Well, not quite. Before you do this, it's a good idea to **ask**. What if the author of the code has a good reason they don't want to add that feature, it's already in progress, etc? Generally if you want to be safe, before opening a pull request or starting to write code for someone else's project, its a good idea to first open an issue and ask about it.
+Well, not quite. Before you do this, it's a good idea to **ask**. What if the author of the code has a good reason they don't want to add that feature, it's already in progress, etc? Generally if you want to be safe, before opening a pull request or starting to write code for someone else's project, it's a good idea to first open an issue and ask about it.
 
 For example, if you are thinking about a new feature, you could open an issue describing the feature, say you are happy to open up a PR for it, and ask the code author's opinion. If they agree, go for it! They might even have some good suggestions for changes or additions to the feature as well.
 
@@ -24,7 +24,7 @@ Finally, if you are using a project you just love and want to contribute back to
 
 ### Using Branches
 
-Ok, so we have a great feature idea (or we found a bug), we opened an issue to check with the author, and they signed off on it. Whoo! Time to get to coding. First thing you should do is **create a branch** for your new code. This is always a good idea when working on a specific feature of fix for any project, and PRs are no exception. Make sure to name your branch with something understandable, related to the change you are making, and not too long.
+Ok, so we have a great feature idea (or we found a bug), we opened an issue to check with the author, and they signed off on it. Whoo! Time to get to coding. First thing you should do is **create a branch** for your new code. This is always a good idea when working on a specific feature or fix for any project, and PRs are no exception. Make sure to name your branch with something understandable, related to the change you are making, and not too long.
 
 ### Writing a Good Commit Message
 
@@ -61,7 +61,7 @@ Even if you don't agree with some of the author's stylistic decisions, you shoul
 
 We would certainly need another article to fully cover git rebase, but when making pull requests, understanding rebase is very important. It's likely that in the course of discussing the pull request with the author and/or core team, some mistakes will be caught or changes will need to be made. In fact, this is likely even before you submit the pull request. But it's important to clean these mistakes up and represent your changes with clean atomic commits so that it's easy to review.
 
-For example, if you made a mistake in your first commit, but fix it in a later commit, this makes it much harder for reviewers, since they will read the commits chronologically, and potentially see and point out the mistake, only to be reminded later that it was fixed. Much easier if the PR is presented without mistakes in the first place.
+For example, if you make a mistake in your first commit, but fix it in a later commit, this makes it much harder for reviewers, since they will read the commits chronologically, and potentially see and point out the mistake, only to be reminded later that it was fixed. Much easier if the PR is presented without mistakes in the first place.
 
 In addition, many authors prefer clean and organized commits to be merged into their projects, not 5 commits of fixes and corrections and one commit with the actual code making the change. Rebase allows you to clean up and compress your commits so you can make this happen.
 
