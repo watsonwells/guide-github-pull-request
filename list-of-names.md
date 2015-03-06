@@ -10,3 +10,4 @@
 - [Jose Collas](https://twitter.com/goatstone)
 - [Phuc Nguyen](https://twitter.com/phuc89)
 - [Miguel Flores](https://twitter.com/bodhidweller)
+- [Daniel Maldonado](https://twitter.com/danielmdesigns)
