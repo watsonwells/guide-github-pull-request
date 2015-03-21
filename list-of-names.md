@@ -12,4 +12,4 @@
 - [Miguel Flores](https://twitter.com/bodhidweller)
 - [Daniel Maldonado](https://twitter.com/danielmdesigns)
 - [Michael Hacker](https://twitter.com/nealhacker)
-- [Shannon Tsaltas]
+- [Shannon Tsaltas] (https://github.com/tsaltas)
