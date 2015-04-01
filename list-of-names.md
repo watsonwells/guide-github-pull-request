@@ -20,3 +20,4 @@ Or your GitHub profile:
 - [Shannon Tsaltas](https://github.com/tsaltas)
 - [Sachin Kelkar](https://github.com/s4chin)
 - [Ben Anabh](https://github.com/banbh)
+- [Justin Hill](https://github.com/JMHill)
