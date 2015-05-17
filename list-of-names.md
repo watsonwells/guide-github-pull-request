@@ -22,3 +22,4 @@ Or your GitHub profile:
 - [Ben Anabh](https://github.com/banbh)
 - [Justin Hill](https://github.com/JMHill)
 - [Tom Lutz](https://github.com/tommylutz)
+- [Warren Harper](https://twitter.com/warrenharper)
